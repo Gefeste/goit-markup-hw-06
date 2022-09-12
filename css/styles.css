@@ -411,7 +411,7 @@ h1 {
 
 .footer {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 footer {
@@ -505,6 +505,10 @@ address {
   background-color: var(--button-color);
 }
 
+.our-social-links {
+  margin-right: 93px;
+}
+
 .join-in {
   font-weight: 700;
   font-size: 14px;
@@ -514,6 +518,57 @@ address {
 
   color: var(--main-cl);
   margin-bottom: 20px;
+}
+
+.tg-input-form {
+  display: flex;
+}
+
+.footer-input {
+  margin-right: 12px;
+}
+
+.come-in {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-cl);
+  margin-bottom: 20px;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  background-color: #2f303a;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.tg-btn {
+  width: 200px;
+  height: 50px;
+  color: var(--main-cl);
+  background-color: #2196f3;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  cursor: pointer;
+  gap: 10px;
 }
 
 /* Portfolio.html */
@@ -702,5 +757,4 @@ address {
   background-color: var(--main-cl);
   border-radius: 50%;
   cursor: pointer;
-
 }
