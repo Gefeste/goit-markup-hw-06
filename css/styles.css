@@ -523,6 +523,7 @@ address {
 
 .footer-input {
   margin-right: 12px;
+  color: #FFFFFF99;
 }
 
 .come-in {
@@ -749,7 +750,6 @@ address {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
   background-color: var(--main-cl);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -782,6 +782,7 @@ address {
 .modal-field {
   display: inline-flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .modal-text-title {
@@ -806,7 +807,8 @@ address {
   transition: border var(--animation);
 }
 
-.textarea:focus {
+.textarea:focus, 
+.textarea:hover {
   border: 1px solid var(--button-color);
 }
 
@@ -899,7 +901,8 @@ textarea[placeholder] {
   transition: border var(--animation);
 }
 
-.user-contact-input:focus {
+.user-contact-input:focus, 
+.user-contact-input:hover {
   border: 1px solid var(--button-color);
 }
 
@@ -913,7 +916,8 @@ textarea[placeholder] {
   transition: fill var(--animation);
 }
 
-.user-contact-input:focus + .modal-icon {
+.user-contact-input:focus + .modal-icon, 
+.user-contact-input:hover + .modal-icon {
   fill: var(--button-color);
 }
 
